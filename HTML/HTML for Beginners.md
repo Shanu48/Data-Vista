@@ -193,9 +193,11 @@ They are added for the convinence of a reader
 `<!-- This is a comment -->`
 
 ---
-Everything that we did in this section is available in this VS Code file: 
+Everything that we did in this section is available in this VS Code file: [beginner1](https://github.com/Shanu48/WebDev/blob/main/HTML/beginner1.html)
+---
 
 ## Hyperlinks
+
 
 ---
 References:
