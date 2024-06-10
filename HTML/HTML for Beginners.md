@@ -270,7 +270,89 @@ Syntax:
 
 * alt: Alternative attribute is used to give an alternative text to the image. It is helpful to the people who use screen reader
 * title: Its the text that is displayed when we hover over the image
-* you can also use image as a hyper link. Just insted of the text that we put between the `<a> </a>` tag, put the image 
+* you can also use image as a hyper link. Just insted of the text that we put between the `<a> </a>` tag, put the image
+
+---
+
+## Audios in HTML
+
+Syntax:
+```
+<audio src="audiofile.mp3"
+```
+
+There are some attributes that can be added. These are boolean attributes so you just need to type in the attribute if you need it else ignore
+* controls: to add some controls
+* autoplay: if you want the audio to start playing as soon as the website is opened
+* muted: if you want the audio to be muted initially
+* loop: if you want the audio to replay after the whole thing has been played
+
+If you want to add additional or alternate sources:
+```
+<audio controls>
+  <source src="audio.mp3">
+  <source src="audio.wav">
+  This browser does not support it
+</audio>
+```
+---
+
+## Videos in HTML
+
+Just like images and audios, videos can also be added on a webpage
+
+The video should be in `mp4`, `webM` or `Ogg` format
+
+Syntax:
+```
+<video src="video.mp4">
+```
+OR (incase the web browser does not support the format
+```
+<video controls>
+  <source src="video.mp4">
+  <source src="video.WebM">
+  This browser does not support it
+</video>
+```
+---
+
+## Text Formatting
+
+`<b>bold</b>`
+`<i>italic</i>`
+`<big>big</big>`
+`<small>small</small>`
+`<sub>subscript<sub>`
+`<sup>superscript<sup>`
+`<ins>inserted<ins>`
+`<del>deleted</del>`
+`<mark>basically highlighted</mark>`
+
+---
+
+## Lists in HTML
+
+There are three types of lists in HTML
+1. Ordered list
+2. Unordered list
+3. Description list
+
+### Ordered list
+### Unordered list
+
+* Indicated by `<ul> </ul>` tags
+* List items are kept between `<li> </li>` tags
+
+
+### Attributes
+* width
+* height
+* controls (boolean)
+* autoplay (boolean)
+* muted (boolean)
+* loop (boolean)
+
 ---
 References:
 [Video](https://www.youtube.com/watch?v=HD13eq_Pmp8)
