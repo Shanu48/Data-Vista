@@ -196,9 +196,81 @@ They are added for the convinence of a reader
 Everything that we did in this section is available in this VS Code file: [beginner1](https://github.com/Shanu48/WebDev/blob/main/HTML/beginner1.html)
 ---
 
-## Hyperlinks
+## Hyperlink
 
+Syntax:
 
+```
+<a href="link" target=(_self/_blank) title="A message"> Text you want to display </a>
+```
+Eg: 
+```
+<a href="www.google.com" target=_self title="this link takes you to google"> Google.com </a>
+```
+
+href: its used to insert the link of the target page
+
+If your website has a second page which is present in the same folder then just put the name
+
+Eg:
+
+make another file named page2.html in the same folder as the index.html file. Insert basic html tags and add this line:
+```
+<a href="page2.html" target=_self title="this link takes you to another page"> Page 2 </a>
+```
+
+target: this attribute is used to determine whether you want to open the hyperlink in the same tab (_self) or in a new tab (_blank)
+
+title: using this attribute you can display a message about the hyperlink when you hover over it
+
+Hyperlink can also be used to email someone
+
+In the href attribute, type mailto:(email address)
+
+Eg:
+```
+<a href="mailto:abc123@gmail.com" target=_blank title="email me"> Email me here </a>
+```
+
+>[!TIP}
+>In VS code, in a file with .html extention if you type ! and press tab then it automatically types down a basic html layout for you
+
+---
+
+## Inserting Images
+
+>[!TIP]
+>Keep the image in the same folder as the html file
+
+Syntax:
+
+```
+<img src="name of the image">
+```
+
+>[!TIP]
+>If your website has a lot of files then its adviced to keep the images in a seperate folder
+>
+>When we do this, we cannot just write the image name when giving the source (src), insted we need to write the path for the image relative to the html file using it
+>
+>You can find the path by right clicking on the image and going to properties
+>
+>If the iamge folder and the html file are in the same folder, then the source can be `src="/(folder name)/(image name)`
+
+### Attributes
+
+* height
+
+* width
+
+>[!NOTE]
+>When you give just the height or only the width attribute then they change proportinately to each other
+>
+>When you give both of them, they change irrespective of each other
+
+* alt: Alternative attribute is used to give an alternative text to the image. It is helpful to the people who use screen reader
+* title: Its the text that is displayed when we hover over the image
+* you can also use image as a hyper link. Just insted of the text that we put between the `<a> </a>` tag, put the image 
 ---
 References:
 [Video](https://www.youtube.com/watch?v=HD13eq_Pmp8)
