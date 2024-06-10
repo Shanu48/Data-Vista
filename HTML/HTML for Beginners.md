@@ -315,18 +315,35 @@ OR (incase the web browser does not support the format
   This browser does not support it
 </video>
 ```
+
+### Attributes
+* width
+* height
+* controls (boolean)
+* autoplay (boolean)
+* muted (boolean)
+* loop (boolean)
+  
 ---
 
 ## Text Formatting
 
 `<b>bold</b>`
+
 `<i>italic</i>`
+
 `<big>big</big>`
+
 `<small>small</small>`
+
 `<sub>subscript<sub>`
+
 `<sup>superscript<sup>`
+
 `<ins>inserted<ins>`
+
 `<del>deleted</del>`
+
 `<mark>basically highlighted</mark>`
 
 ---
@@ -339,19 +356,31 @@ There are three types of lists in HTML
 3. Description list
 
 ### Ordered list
+
+* Indicated by `<ol> </ol>` tags
+* List items are kept between `<li> </li>` tags
+* It has a type attribute to change the type of list
+  * Syntax: `<ol type="1/A/a/I/i">`
+
 ### Unordered list
 
 * Indicated by `<ul> </ul>` tags
 * List items are kept between `<li> </li>` tags
+* It also has types such as disc, circular, etc.
 
+### Description list
+* Indicated by `<dl> </dl>` tags
+* It has two other tags
+  * `<dt>`description term`</dt>`
+  * `<dd>`description definition`<dd>`
+* It can be used when you are trying to define or explain certain things
+---
 
-### Attributes
-* width
-* height
-* controls (boolean)
-* autoplay (boolean)
-* muted (boolean)
-* loop (boolean)
+## Tables
+
+>[!NOTE]
+>Various types of lists can be nested within one another depending on your requirements
+
 
 ---
 References:
