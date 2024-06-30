@@ -208,3 +208,8 @@ Testing
 4. Digital Ocean
 5. Firebase
 6. IBM Cloud
+---
+
+#### Links
+[Frontend Developement](https://www.geeksforgeeks.org/frontend-developer-roadmap/?ref=lbp)
+[Backend Developement](https://www.geeksforgeeks.org/backend-developer-roadmap/?ref=lbp)
