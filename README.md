@@ -32,7 +32,7 @@ Networks
 
 ### HTML
 
-HTML Basics
+[HTML Basics](https://youtu.be/HD13eq_Pmp8?si=CCUTT5MUHSD7e5Qf)
 1. Basics of HTML
 2. Forms and Validations
 3. Semantic Tags
@@ -41,7 +41,7 @@ HTML Basics
 
 ### CSS
 
-CSS
+[CSS](https://youtu.be/ieTHC78giGQ?si=DrnJu6ji3xctqJds)
 1. Learn Basics
 2. Layouts
 3. Flex and Grids
@@ -49,8 +49,8 @@ CSS
 5. CSS Display
 
 CSS Frameworks
-1. BootStrap
-2. Tailwind CSS
+1. [BootStrap](https://youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&si=T0RxBiKSuYovbkrb)
+2. [Tailwind CSS](https://youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw&si=TalV_4BY7Z3T-lds)
 3. Pure CSS
 4. Foundation
 5. Materialize CSS
@@ -58,7 +58,7 @@ CSS Frameworks
 
 ### JavaScript
 
-JS Concepts
+[JS Concepts](https://youtu.be/PlbupGCBV6w?si=-mc8GKO8isnyhYSU)
 1. Basic Working
 2. Operators
 3. Loops
