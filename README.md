@@ -59,6 +59,7 @@ CSS Frameworks
 ### JavaScript
 
 [JS Concepts](https://youtu.be/PlbupGCBV6w?si=-mc8GKO8isnyhYSU)
+[Better link to learn JavaScript](https://www.youtube.com/watch?v=8dWL3wF_OMw)
 1. Basic Working
 2. Operators
 3. Loops
